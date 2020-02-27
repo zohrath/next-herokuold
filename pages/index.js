@@ -1,16 +1,12 @@
 import { useEffect } from "react";
 
-var x = "";
+class Welcome extends React.Component {
+    componentDidMount() {
+        console.log(window.location);
+    }
 
-const Index = () => {
-    useEffect(() => {
-        x = window.location;
-    });
-
-    return (
-        <div>
-            <p>{x}</p>
-        </div>
-    );
-};
-export default Index;
+    render() {
+        return <h1>Hello, X</h1>;
+    }
+}
+export default Welcome;
