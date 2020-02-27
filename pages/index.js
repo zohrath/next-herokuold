@@ -1,14 +1,14 @@
-import { useEffect } from "react";
+import * as React from "react";
 
-const Index = () => {
-    useEffect(() => {
+export const Index = () => {
+    React.useEffect(() => {
+        // window is accessible here.
         console.log("window.innerHeight", window.innerHeight);
     });
 
     return (
         <div>
-            <p>{window.location}</p>
+            <p>Hej</p>
         </div>
     );
 };
-export default Index;
