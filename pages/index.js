@@ -8,6 +8,7 @@ class Welcome extends React.Component {
 
     componentDidMount() {
         this.location = window.location;
+        this.forceUpdate();
     }
 
     render() {
