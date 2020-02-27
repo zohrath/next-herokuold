@@ -11,7 +11,7 @@ class Welcome extends React.Component {
     }
 
     render() {
-        return <h1>{this.location ? this.location : null}</h1>;
+        return <h1>{this.location ? this.location : "skit"}</h1>;
     }
 }
 export default Welcome;
