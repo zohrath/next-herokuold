@@ -3,16 +3,17 @@ import { useEffect } from "react";
 class Welcome extends React.Component {
     constructor(props) {
         super(props);
-        this.location;
+        this.state = {
+            location: null
+        };
     }
 
     componentDidMount() {
-        this.location = window.location;
-        this.forceUpdate();
+        this.setState({ location: window.location });
     }
 
     render() {
-        return <h1>{this.location ? this.location : "skit"}</h1>;
+        return <h1>{this.state.location ? this.state.location : "skit"}</h1>;
     }
 }
 export default Welcome;
