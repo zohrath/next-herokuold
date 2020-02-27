@@ -1,8 +1,10 @@
 import { useEffect } from "react";
 
+var x = "";
+
 const Index = () => {
     useEffect(() => {
-        console.log(window.location.href);
+        x = window.location;
     });
 
     return (
