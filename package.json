@@ -1,0 +1,29 @@
+{
+    "name": "next-heroku",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start -p $PORT",
+        "heroku-postbuild": "npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zohrath/next-heroku.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zohrath/next-heroku/issues"
+    },
+    "homepage": "https://github.com/zohrath/next-heroku#readme",
+    "dependencies": {
+        "next": "^9.2.2",
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0"
+    }
+}
