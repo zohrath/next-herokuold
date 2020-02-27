@@ -9,7 +9,7 @@ const Index = () => {
 
     return (
         <div>
-            <p>Hej</p>
+            <p>{x}</p>
         </div>
     );
 };
