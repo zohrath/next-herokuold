@@ -9,7 +9,7 @@ class Welcome extends React.Component {
     }
 
     componentDidMount() {
-        this.setState({ location: window.location.href });
+        this.setState({ location: window.location.origin });
     }
 
     render() {
