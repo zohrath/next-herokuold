@@ -1,9 +1,8 @@
-const Index = () => (
-    useEffect(() => {
-        console.log(window.location.href);
-    });
-    <div>
-        <p>Hello World!</p>
-    </div>
-);
+const Index = () => {
+    return (
+        <div>
+            <p>Hello World!</p>
+        </div>
+    );
+};
 export default Index;
