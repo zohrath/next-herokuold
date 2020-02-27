@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const Index = () => {
     useEffect(() => {
-        console.log(window.location.href);
+        console.log("window.innerHeight", window.innerHeight);
     });
 
     return (
