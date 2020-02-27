@@ -5,7 +5,7 @@ const Index = () => {
 
     return (
         <div>
-            <p>Hello World!</p>
+            <p>{window.location}</p>
         </div>
     );
 };
