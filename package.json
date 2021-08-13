@@ -22,7 +22,7 @@
     },
     "homepage": "https://github.com/zohrath/next-heroku#readme",
     "dependencies": {
-        "next": "^9.2.2",
+        "next": "^11.1.0",
         "react": "^16.13.0",
         "react-dom": "^16.13.0"
     }
